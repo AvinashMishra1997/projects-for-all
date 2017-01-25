@@ -8,7 +8,7 @@ g='   '
 h='   '
 i='   '
 
-
+'''while typing x or o please provide a space before and after an x and/or o'''
 t=('\t'+a+'|'+b+'|'+c+'\n\t___________\n\t'+d+'|'+e+'|'+f+'\n\t___________\n\t'+g+'|'+h+'|'+i )
 print t
 for unknowns in t:
