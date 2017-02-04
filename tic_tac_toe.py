@@ -1,14 +1,13 @@
-a='   '
-b='   '
-c='   '
-d='   '
-e='   '
-f='   '
-g='   '
-h='   '
-i='   '
+a=' '
+b=' '
+c=' '
+d=' '
+e=' '
+f=' '
+g=' '
+h=' '
+i=' '
 
-w=print('while typing x or o please provide a space before and after an x and/or o \n example ( x ) or ( o )')
 q=print('while entering column number and row number, please do not leave any space in between them \n example (12) or (23), etc')
 t=('\t'+a+'|'+b+'|'+c+'\n\t___________\n\t'+d+'|'+e+'|'+f+'\n\t___________\n\t'+g+'|'+h+'|'+i )
 print t
