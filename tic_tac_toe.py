@@ -1,15 +1,15 @@
-a=' '
-b=' '
-c=' '
-d=' '
-e=' '
-f=' '
-g=' '
-h=' '
-i=' '
+a='   '
+b='   '
+c='   '
+d='   '
+e='   '
+f='   '
+g='   '
+h='   '
+i='   '
 
 q=print('while entering column number and row number, please do not leave any space in between them \n example (12) or (23), etc')
-t=('\t'+a+'|'+b+'|'+c+'\n\t___________\n\t'+d+'|'+e+'|'+f+'\n\t___________\n\t'+g+'|'+h+'|'+i )
+t=('\t '+a+' | '+b+' | '+c+'\n\t___________\n\t '+d+' | '+e+' | '+f+'\n\t___________\n\t '+g+' | '+h+' | '+i )
 print t
 for unknowns in t:
     unknowns= raw_input('Enter column number and row number here without spaces in between: ')
@@ -34,7 +34,7 @@ for unknowns in t:
         i=raw_input('Enter x or o:  ')
     else:
         print ('INPUT ERROR:')
-    t1=('\t'+a+'|'+b+'|'+c+'\n\t___________\n\t'+d+'|'+e+'|'+f+'\n\t___________\n\t'+g+'|'+h+'|'+i )
+    t1=('\t '+a+' | '+b+' | '+c+'\n\t___________\n\t '+d+' | '+e+' | '+f+'\n\t___________\n\t '+g+' | '+h+' | '+i )
     t=t1
 
     print (t)
