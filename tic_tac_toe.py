@@ -9,7 +9,7 @@ h='   '
 i='   '
 
 q=print('while entering column number and row number, please do not leave any space in between them \n example (12) or (23), etc')
-t=('\t '+a+' | '+b+' | '+c+'\n\t   ___________\n\t '+d+' | '+e+' | '+f+'\n\t   ___________\n\t '+g+' | '+h+' | '+i )
+t=('\t '+a+' |'+b+'| '+c+'\n\t   ___________\n\t '+d+' |'+e+'| '+f+'\n\t   ___________\n\t '+g+' |'+h+'| '+i )
 print t
 for unknowns in t:
     unknowns= raw_input('Enter column number and row number here without spaces in between: ')
