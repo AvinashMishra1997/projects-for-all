@@ -17,3 +17,7 @@ elif d=='t':
     word = raw_input('Enter the word you want the translation for: ')
     language = raw_input('enter the language code as per google: ')
     print (dictionary.translate(word , language))
+else:
+    print ('INPUT ERROR')
+    
+    
