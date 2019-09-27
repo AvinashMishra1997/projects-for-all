@@ -8,7 +8,7 @@ def Comp_c():
 	if comp_choice ==1:
 		Rock()
 	elif comp_choice == 2:
-		Paper();
+		Paper()
 	else:
 		Scissors()
 
